@@ -1,0 +1,117 @@
+\documentclass{article}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper]{geometry}
+\usepackage[pages=some]{background}
+\usepackage{fontspec}
+\usepackage[font=footnotesize]{caption}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{url}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{listings}
+%\usepackage{multicol}
+%\usepackage{wrapfig}
+%\usepackage{parskip}
+%\usepackage{enumerate}
+%\usepackage{fancyhdr}
+%\usepackage[nottoc,numbib]{tocbibind}
+%\usepackage{ulem}
+%\usepackage{gnuplottex}
+%\usepackage{circledsteps}
+%\usepackage{pdfpages}
+%\usepackage{amsmath}
+%\usepackage{lipsum}
+
+
+
+\graphicspath{{imagenes}}
+\geometry{top=2.54cm, bottom=2.54cm, left=2.54cm, right=2.54cm}
+\setmainfont{OpenSans}
+\hypersetup{pdfborder={0 0 0}}
+\definecolor{color_contenido}{RGB}{73, 208, 197}
+\definecolor{color_estructura}{RGB}{133, 153, 0}
+\definecolor{color_orilla}{RGB}{60, 255, 0}
+\definecolor{color_fondo}{RGB}{253, 246, 227}
+\definecolor{color_titulo}{RGB}{0, 122, 204}
+\lstset{backgroundcolor=\color{color_fondo}, basicstyle=\footnotesize, captionpos=b, commentstyle=\color{gray}, extendedchars=true, firstnumber=1, frame=single, keepspaces=true, keywordstyle=\color{color_estructura}, numbers=left, numbersep=10pt, numberstyle=\footnotesize\color{black}, rulecolor=\color{color_orilla}, showstringspaces=false, stepnumber=2, stringstyle=\color{color_contenido}, tabsize=2, title=\lstname, breaklines=true}
+\newfontfamily{\fuentetitulo}{Righteous}
+\newfontfamily{\fuentetituloII}{Amarante}
+\newcommand{\fr}{\fuentetitulo\color{color_titulo}}
+\newcommand{\fn}{\fuentetituloII\color{black}}
+
+
+
+\begin{document}
+
+    \begin{titlepage}
+        %\BgThispage\backgroundsetup{scale=1, color=black, opacity=0.2, angle=0, contents={\includegraphics[width=\paperwidth]{  }}}
+        \vspace*{1cm}
+        {\fr\fontsize{80pt}{100pt}\selectfont
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % T I T U L O %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        Enfocador
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        \\
+        \fontsize{40pt}{10pt}\selectfont
+        \hspace*{2pc}
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % M A T E R I A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        Telescopio.
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        }
+        {\fn\fontsize{30pt}{30pt}\selectfont
+        \begin{flushright}
+            caralacm\\
+            \today
+        \end{flushright}
+        \vspace*{\fill} }
+    \end{titlepage}
+
+    \null\vfill
+    \begin{center}
+        \large{\textit{
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            % D E D I C A T O R I A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            Proyecto dedicadado a mi telescopio y a las chips fuego.
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            }}
+    %	\begin{figure}[H]
+    %		\centering
+    %		\framebox[1.05\width]{\includegraphics[height=5cm,width=5cm]{  }}
+    %	\end{figure}
+    \end{center}
+    \vfill
+\newpage
+
+    \tableofcontents
+    \newpage
+
+    \renewcommand{\chaptername}{Parte}
+
+    %--------------------------------------------------------------------------------------------------%
+    \section*{v0.}
+
+    \section{v1.}
+
+    \section{v2.}
+
+    %--------------------------------------------------------------------------------------------------%
+
+    %\renewcommand{\bibname}{Referencias utilizadas.}
+    %\begin{thebibliography}{X}
+    %	\bibitem{ref1} 
+    %\end{thebibliography}
+    
+    %\renewcommand{\bibname}{Imágenes utilizadas.}
+    %\begin{thebibliography}{X}
+    %	\bibitem{refi1} 
+    %\end{thebibliography}
+    
+\end{document}

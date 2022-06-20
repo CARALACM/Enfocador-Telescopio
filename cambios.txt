@@ -1,0 +1,21 @@
+C A M B I O S
+
+
+v0.
+Esta versión preeliminar sirvió para estudiar el uso del motor 28byj-48 y su controlador junto al microcontrolador Raspberry Pi Pico.
+
+v1.
+Se rescribió el código haciendose más limpio.
+Se añadieron botones físisos.
+El movimiento se controla a tres velocidades.
+El movimiento se límita a los límites físicos del enfocador.
+Se añadió la función para guardar tres ubicaciones del motor.
+
+v2.
+Se restructuró el proyecto par utilizar el motor 17hs4401, además de usar una interfaz gráfica.
+Se eliminaron las velocidades, dejando solo el uso de movimiento por clic y movimiento continuo.
+Se eliminaron las posiciones.
+
+v3.
+Se añadió la medida de temperatura desde el microcontrolador.
+Se añadidieron varios mensajes de alerta.
