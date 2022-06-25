@@ -1,4 +1,3 @@
-from sys import exec_prefix
 from tkinter import *
 from tkinter import ttk, messagebox
 import os

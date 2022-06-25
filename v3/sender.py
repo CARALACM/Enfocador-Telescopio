@@ -17,12 +17,5 @@ class Sender:
         # If it isn't, something is wrong.
         return text == self.receive()
 
-    def send2(self, text: str) -> bool:
-        line = '%s\r\f' % text
-        self.serial.write(line.encode('UTF8'))
-        # the line should be echoed.
-        # If it isn't, something is wrong.
-        return self.receive()
-
     def close(self):
         self.serial.close()
